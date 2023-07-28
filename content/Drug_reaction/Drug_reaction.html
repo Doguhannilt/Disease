@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drug Reactions Information</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <h1>Drug Reactions Information</h1>
+  </header>
+  <main>
+    <section>
+      <h2>What are Drug Reactions?</h2>
+      <p>
+        Drug Reactions, also known as Adverse Drug Reactions (ADRs), are unintended and harmful effects caused by medications. They can occur when using prescription drugs, over-the-counter medications, or herbal supplements. ADRs can range from mild side effects to severe and life-threatening conditions.
+      </p>
+    </section>
+    <section>
+      <h2>Types of Drug Reactions</h2>
+      <p>
+        Drug Reactions can be categorized into several types, including:
+      </p>
+      <ul>
+        <li><strong>Type A (Augmented) Reactions:</strong> Predictable reactions related to the drug's known pharmacological effects. These are dose-dependent and common side effects.</li>
+        <li><strong>Type B (Bizarre) Reactions:</strong> Unpredictable reactions not related to the drug's known pharmacological effects. These are usually not dose-dependent and can be severe or rare.</li>
+        <li><strong>Type C (Chronic) Reactions:</strong> Related to prolonged use of a drug, leading to cumulative damage or organ toxicity.</li>
+        <li><strong>Type D (Delayed) Reactions:</strong> Occur after a significant time lag from the drug's administration and may be difficult to attribute to the drug.</li>
+        <li><strong>Type E (End-of-treatment) Reactions:</strong> Reactions that occur upon stopping a drug, such as withdrawal effects or rebound symptoms.</li>
+        <li><strong>Type F (Failure) Reactions:</strong> Result from the drug's failure to provide the intended therapeutic effect.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Signs and Symptoms</h2>
+      <p>
+        The signs and symptoms of drug reactions can vary widely based on the type of reaction and the individual's response. Common symptoms may include:
+      </p>
+      <ul>
+        <li>Allergic reactions (rash, itching, hives)</li>
+        <li>Nausea, vomiting, or diarrhea</li>
+        <li>Dizziness or drowsiness</li>
+        <li>Headache</li>
+        <li>Difficulty breathing or swelling of the face, lips, or tongue (severe reactions)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Prevention and Management</h2>
+      <p>
+        To prevent drug reactions, it's essential to provide a comprehensive medical history to healthcare providers and inform them of any allergies or previous adverse reactions to medications. It's also crucial to take medications as prescribed and to avoid self-medicating or sharing medications with others.
+      </p>
+      <p>
+        If a drug reaction occurs, it's essential to seek medical attention promptly. Treatment may involve discontinuing the offending medication, providing supportive care, or administering medications to counteract the reaction.
+      </p>
+    </section>
+	    <div class="risk-plot">
+      <canvas id="drugReactionsChart"></canvas>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 YourWebsiteName. All rights reserved.</p>
+  </footer>
+
+  <!-- Main Page Button -->
+  <div class="main-page-button">
+    <a href="C:/Users/doguy/Desktop/Health/templates/index.html">Main Page</a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.left-column,
+.right-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%; /* Adjust the width as needed */
+}
+
+.right-column {
+    margin-left: 200px; /* Increase the left margin for more space between columns */
+}
+
+#uploadForm {
+    margin-top: 20px;
+}
+
+#fileContent {
+    display: none;
+}
+
+/* Center the upload form and text content */
+div.align-center {
+    text-align: center;
+}
+
+#fileContent {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.class_predictDiseases() {
+    display: block;
+    margin: 50px auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+}
+
+#Gonextpage {
+    display: block;
+    margin: 25px auto;
+    margin-right: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Gonextpage {
+    display: block;
+    margin: 25px auto;
+    margin-right: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+body {
+    background-image: url('https://www.itl.cat/pics/b/37/374853_white-background-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+       
+
+.center {
+    text-align: center;
+    margin: auto;
+    max-width: 950px; /* Maksimum genişlik ayarlayarak 950 pikselden fazla olmasını engelliyoruz */
+    margin-top: 25px;
+}
+
+#uploadForm {
+    display: block; /* <form> öğesi zaten blok seviyesinde olduğu için burada display özelliğini değiştirmemize gerek yok */
+    margin-top: 20px;
+}
+
+#uploadBtn {
+    width: 100px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#uploadBtn:hover {
+    background-color: #0056b3;
+}
+.button-28::after {
+  content: "Please wait, it won't take long...";
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease;
+  pointer-events: none;
+}

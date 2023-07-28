@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hastalık Tahmini</title>
+</head>
+<body>
+    <div class="center">
+        <input type="file" id="textFile" accept=".txt" />
+        <button onclick="handleFile()">Upload</button>
+    </div>
+    <div id="result" class="center"></div>
+     <a href="file:///C:/Users/doguy/Desktop/Health/templates/index.html" >
+    <button id="Gonextpage">Previous Page</button>
+     </a>
+    <script>
+        function handleFile() {
+            const fileInput = document.getElementById("textFile");
+            const file = fileInput.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function (event) {
+                    const content = event.target.result;
+                    sendToPython(content);
+                };
+
+                reader.readAsText(file);
+            } else {
+                alert("Please select a text file before uploading.");
+            }
+        }
+
+        function sendToPython(content) {
+            const formData = new FormData();
+            formData.append('file', new Blob([content], { type: 'text/plain' }));
+
+            fetch('http://127.0.0.1:5000/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.text();
+                } else {
+                    throw new Error('File upload failed.');
+                }
+            })
+            .then(result => {
+                // Display the prediction result directly in the #result div
+                document.getElementById("result").innerText = "Prediction Result: " + result;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

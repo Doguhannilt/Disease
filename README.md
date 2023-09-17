@@ -18,6 +18,13 @@ https://github.com/Doguhannilt/Disease/assets/77373443/39f8a770-0e45-472a-97eb-f
   <li>An adjustable <strong>Patient Profile</strong> was added as a side selection</li>
   <li>Symptom Weight Visualizer was added. It is going to tell you how a symptom can affect your body within two days.</li>
 </lu>
+<br>
+<h4>How to run the project?</h4>
+<lu>
+  <li>Write <code>pip install requirements.txt</code> to CMD(or relevant)</li>
+  <li>You should write <code>streamlit run app.py</code> to CMD(or relevant)</li>
+  <note>If you have a problem <strong>doguhannilt@gmail.com</strong></note>
+</lu>
 
 
 <h3>Dataset</h3>

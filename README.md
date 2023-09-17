@@ -24,7 +24,9 @@ https://github.com/Doguhannilt/Disease/assets/77373443/39f8a770-0e45-472a-97eb-f
   <li>Write <code>pip install requirements.txt</code> to CMD(or relevant)</li>
   <li>You should write <code>streamlit run app.py</code> to CMD(or relevant)</li>
   <note>If you have a problem <strong>doguhannilt@gmail.com</strong></note>
-</lu>
+</lu><br>
+
+
 
 
 <h3>Dataset</h3>
@@ -60,6 +62,8 @@ It's essential to remember that this disease diagnosis system is not a substitut
 
 We hope that this disease diagnosis project can be a valuable tool in promoting early detection and improving healthcare accessibility. Your feedback and contributions are welcomed to further enhance the system's accuracy and effectiveness.
 
+<p><strong>Doguhan Ilter</strong></p>
+<a target="_blank" href="https://www.linkedin.com/in/doguhan-ilter-350008258/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
 <p align="center">Thank you for visiting my repository, and I wish you good health!</p>
 
 

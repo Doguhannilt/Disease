@@ -1,7 +1,7 @@
 <h1 align ="center">Finding the Diseases Based on the Symptoms</h1>
 
 
-https://github.com/Doguhannilt/Disease/assets/77373443/39f8a770-0e45-472a-97eb-fccebee23d94
+
 
 
 <h1>Overview</h1>
